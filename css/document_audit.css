@@ -1,0 +1,29 @@
+/* document_audit_styles.css */
+.document-audit-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#auditTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#auditTable th, #auditTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#auditTable th {
+    background-color: #f2f2f2;
+}
+
+#auditTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

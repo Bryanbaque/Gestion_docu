@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualización de Documento</title>
+    <link rel="stylesheet" href="css/view_document.css">
+</head>
+<body>
+    <div class="document-container">
+        <h1>Visualización de Documento</h1>
+        <div id="documentDetails">
+            <!-- Aquí se mostrarán los detalles del documento -->
+            <h2>Detalles del Documento:</h2>
+            <p><strong>Título:</strong> <span id="documentTitle"></span></p>
+            <p><strong>Departamento:</strong> <span id="documentDepartment"></span></p>
+            <p><strong>Fecha de Creación:</strong> <span id="documentDate"></span></p>
+            <!-- Agrega más detalles del documento según sea necesario -->
+        </div>
+        <div id="documentContent">
+            <!-- Aquí se mostrará el contenido completo del documento -->
+            <h2>Contenido del Documento:</h2>
+            <div id="contentPlaceholder">El contenido del documento se mostrará aquí.</div>
+        </div>
+        <div id="downloadOptions">
+            <!-- Opciones para descargar el documento -->
+            <h2>Opciones de Descarga:</h2>
+            <button id="downloadButton">Descargar Documento</button>
+        </div>
+    </div>
+    <script src="js/view_document.js"></script>
+</body>
+</html>

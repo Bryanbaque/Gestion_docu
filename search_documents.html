@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda de Documentos</title>
+    <link rel="stylesheet" href="css/search_documents.css">
+</head>
+<body>
+    <div class="search-container">
+        <h1>Búsqueda de Documentos</h1>
+        <form id="searchForm">
+            <label for="searchQuery">Buscar:</label>
+            <input type="text" id="searchQuery" name="searchQuery" required>
+            
+            <label for="searchCriteria">Criterio de Búsqueda:</label>
+            <select id="searchCriteria" name="searchCriteria" required>
+                <option value="title">Título</option>
+                <option value="department">Departamento</option>
+                <option value="date">Fecha</option>
+                <!-- Agrega más opciones de criterios de búsqueda según sea necesario -->
+            </select>
+            
+            <button type="submit">Buscar</button>
+        </form>
+        <div id="searchResults"></div>
+    </div>
+    <script src="js/search_documents.js"></script>
+</body>
+</html>

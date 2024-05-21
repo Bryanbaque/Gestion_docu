@@ -1,0 +1,30 @@
+/* notifications_styles.css */
+.notifications-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    max-width: 300px;
+}
+
+.notification {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.notification:hover {
+    transform: scale(1.05);
+}
+
+.close-button {
+    float: right;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}

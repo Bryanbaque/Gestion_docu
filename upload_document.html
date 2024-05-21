@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carga de Documentos</title>
+    <link rel="stylesheet" href="css/upload_document.css">
+</head>
+<body>
+    <div class="upload-container">
+        <h1>Carga de Documentos</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <label for="title">Título del Documento:</label>
+            <input type="text" id="title" name="title" required>
+            
+            <label for="description">Descripción:</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+            
+            <label for="department">Departamento:</label>
+            <input type="text" id="department" name="department" required>
+            
+            <label for="file">Seleccionar Archivo:</label>
+            <input type="file" id="file" name="file" accept=".pdf,.docx,.txt" required>
+            
+            <button type="submit">Cargar Documento</button>
+        </form>
+        <div id="uploadMessage"></div>
+    </div>
+    <script src="js/upload_document.js"></script>
+</body>
+</html>
